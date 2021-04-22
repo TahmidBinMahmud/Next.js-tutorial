@@ -6,7 +6,7 @@ dbConnect();
 export default async (req, res) => {
     const { method } = req;
 
-    switch(methid) {
+    switch(method) {
         case 'GET':
             try {
                 const notes = await Note.find({});
